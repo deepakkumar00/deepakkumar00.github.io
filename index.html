@@ -1,40 +1,144 @@
-<html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-99KXBXNECR"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/dicob.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-            gtag('config', 'G-99KXBXNECR');
-        </script>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Bangers&family=Chelsea+Market&display=swap" rel="stylesheet">
-        <title>Deepak Kumar</title>
-    </head>
-    <body>
+    <link rel="stylesheet" href="main.css">
+    <title>Deepak Kumar</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <!--Desktop Navigation-->
+    <nav class="desktop-nav">
+        <h1 class="logo-text">Deepak Kumar</h1>
+        <div class="menu">
+            <a href="#education">/education</a>
+            <a href="">/projects</a>
+            <a href="#contact">/contact</a>
+        </div>
+        <a href="https://bit.ly/3pPJWlL" class="resume" target="__blank">Résumé</a>
+    </nav>
 
-        <div class="main">
-            <div class="art width_half">
-                <div class="container"><div class="divimg"></div></div>
-            </div>
-            <div class="info">
-                <div class="title">
-                        <h1>Deepak Kumar</h1>
-                        <div>
-                                <span><i class="fab fa-github"></i></span>
-                                <span></span>
-                            </div>
-                </div>
-                
-                <p>Hi there!</p>
-                <p>I am a Developer.</p>
-                <p>I love creating things from scratch.</p>
-                <p>I'm a student who is learning bits and bytes of computer's world.</p>
-                
+    <!--Mobile Navigation-->
+    <nav class="mobile-nav">
+
+    </nav>
+
+    <!--Loading-->
+
+    <!--Landing Division-->
+    <div class="landing">
+        <div class="content">
+            <img src="images/hi.png" alt="" srcset="" height="150px">
+            <div class="center">
+                <h1>I am a</h1>
+                <h1 id="type"><span class="red">Tech Enthusiast</span></h1>
             </div>
         </div>
-        <div class="lines"></div>
-    </body>
+        <div class="art">
+            <div class="divimg"></div>
+        </div>
+    </div>
+
+    <!--About-->
+    <div>
+        <h1></h1>
+
+    </div>
+
+    <!--Education-->
+    <div class="p2" id="education">
+        <div>
+            <h1 class="heading">My Education</h1>
+            <div class="institute">
+                <div>
+                    <img src="images/SIT_Pithoragarh.png" alt="" height="150px">
+                </div>
+                <div>
+                    <h1>B. Tech</h1><span>2017 - 2021</span>
+                    <h2>Computer Science & Engineering</h2>
+                    <h4>Nanhi Pari Seemant Engineering Institute, Pithoragarh</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Skills-->
+    <div>
+
+    </div>
+
+    <!-- Projects -->
+    <div id="project" class="p2">
+        <h1 class="heading">My Projects</h1>
+        <div class="projects">
+            <div class="project-tile">
+                <div class="project-img" style="background-color: yellowgreen;">
+                    <img src="images/dico.png" alt="" height="150px">
+                </div>
+                <div class="project-desc">
+                    <p class="head">Personal Portfolio</p>
+                    <div class="pbtn">
+                        <a class="btnlnk" href="https://deepakkumar00.github.com">See Live <i class="fas fa-external-link-alt"></i></a>
+                        <a class="btnlnk" href="https://github.com/deepakkumar00/deepakkumar00.github.io"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                    <div class="tech">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="project-tile">
+                <div class="project-img" style="background-color: #343a40;">
+                    <img src="images/p1.png" alt="" height="50px">
+                </div>
+                <div class="project-desc">
+                    <p class="head">Covid-19 India Tracker</p>
+                    <p class="desc">A SPA that provides updates about covid-19 outbreak in India.</p>
+                    <div class="pbtn">
+                        <a class="btnlnk" href="https://indiacovid19-tracker.herokuapp.com">See Live <i class="fas fa-external-link-alt"></i></a>
+                        <a class="btnlnk" href="https://github.com/deepakkumar00/India-Covid19-tracker"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                    <div class="tech">
+                        <i class="fab fa-python"></i>
+                        <img src="images/flask.png" alt="" srcset="" style="display: inline;" height="25px">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div class="p2" id="contact">
+        <h1 class="heading">Get in touch</h1>
+        <div class="p2">
+            <p class="light">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</p>
+            <p class="contact"><i class="fas fa-map-marker-alt"></i> Khatima, India</p>
+            <p class="contact"><a href="mailto:kumardpk2611@gmail.com"><i class="far fa-envelope"></i> kumardpk2611@gmail.com</a></p>
+            <div class="contact social">
+                <a href="https://github.com/deepakkumar00" class="gh"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/deepak-kumar-56b057154/" class="in"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/daemon1011" class="fb"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/daemon1011" class="tw"><i class="fab fa-twitter-square "></i></a> 
+                <a href="https://t.me/daemon404" class="tg"><i class="fas fa-paper-plane"></i></a>           
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <i class="fas fa-code"></i>  with  <i class="far fa-heart"></i>  by deepak kumar
+    </div>
+
+    <button class="totop" id="totop" onclick="totop()">^</button>
+
+    <script src="main.js"></script>
+
+</body>
 </html>
